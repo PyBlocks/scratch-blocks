@@ -1,4 +1,21 @@
 # scratch-blocks
+
+This is a fork from the MIT LLK Scratch Blocks, which in turn is based on Blockly.
+At the moment there are no plans to do any significant changes to this code base. All changes are listed here:
+
+* Add to the repository the blockly compressed build output 
+    * `blockly_compressed_horizontal.js`
+    * `blockly_compressed_vertical.js` 
+    * `blockly_uncompressed_horizontal.js`
+    * `blockly_uncompressed_vertical.js`
+    * `blocks_compressed.js`
+    * `blocks_compressed_horizontal.js`
+    * `blocks_compressed_vertical.js`
+* At the moment to build blockly correctly we need to copy the `msg/json/` directory back from [d65c27465272b898733af889b331278f01c365c9](https://github.com/LLK/scratch-blocks/tree/d65c27465272b898733af889b331278f01c365c9). This hasn't been added to the repository yet as we are waiting for [#685](https://github.com/LLK/scratch-blocks/issues/685) to be resolved.
+
+The rest of the original readme can be found below.
+
+
 #### Scratch Blocks is a library for building creative computing interfaces.
 [![Build Status](https://travis-ci.org/LLK/scratch-blocks.svg?branch=develop)](https://travis-ci.org/LLK/scratch-blocks)
 [![Dependency Status](https://david-dm.org/LLK/scratch-blocks.svg)](https://david-dm.org/LLK/scratch-blocks)
